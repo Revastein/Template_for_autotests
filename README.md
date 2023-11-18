@@ -20,10 +20,10 @@ Clone the Repository:
   git clone https://github.com/Revastein/Template_for_autotests.git
   cd Template_for_autotests.git
 
-# Install Dependencies:
+Install Dependencies:
   pip install -r requirements.txt
 
-# Run the Tests:
+Run the Tests:
   pytest tests/test_indicative.py
 
 # Contributors
