@@ -1,4 +1,4 @@
-# Template_for_autotests
+# Template for autotests
 Project Overview:
 This project provides a Selenium-based web testing framework with reusable components for common web testing scenarios. It includes utility classes for interacting with web elements and emulating various network conditions for testing purposes.
 
