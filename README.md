@@ -27,4 +27,4 @@ Clone the Repository:
   pytest tests/test_indicative.py
 
 # Contributors
-  Yan Kovzel'
+  https://github.com/Revastein (Yan Kovzel')
