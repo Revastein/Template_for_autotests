@@ -22,9 +22,9 @@ This project provides a robust Selenium-based web testing framework with reusabl
    cd Template_for_autotests
    ```
 2. **Install Dependencies:**
-  ```
+   ```
    pip install -r requirements.txt
-  ```
+   ```
 3. **Run the Tests:**
    ```
    pytest tests/test_indicative.py
