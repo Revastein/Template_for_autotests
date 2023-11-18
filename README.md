@@ -23,7 +23,7 @@ This project provides a robust Selenium-based web testing framework with reusabl
    ```
 2. **Install Dependencies:**
   ```
-  pip install -r requirements.txt
+   pip install -r requirements.txt
   ```
 3. **Run the Tests:**
    ```
