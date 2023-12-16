@@ -6,12 +6,18 @@ from typing import List
 
 
 class SeleniumBase:
+    """Содержит основные методы для POM."""
     def __init__(self, driver):
         self.driver = driver
         self.__wait = WebDriverWait(driver, 20, 0.3)
 
     @staticmethod
     def __get_selenium_by(find_by: str) -> str:
+        """
+        Словарь с основными методами Selenium.
+        :param find_by: css, xpath, class_name, id, link_text, name, partial_link_text, tag_name.
+        :return: Возвращает метод по которому ищет элемент.
+        """
         find_by = find_by.lower()
         locating = {'css': By.CSS_SELECTOR,
                     'xpath': By.XPATH,
